@@ -1,0 +1,143 @@
+body{
+    background-image: url('https://th.bing.com/th/id/OIP.W0Mc5XM9FVPTt78O_BFBLgHaFP?pid=ImgDet&rs=1');
+    font-family: 'Poppins';
+}
+
+header,
+footer{
+    color: white;
+    background-color: black;
+    text-shadow: 2px 0px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.glyphicon-film{
+    color: red;
+    margin-right: 5px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+h1{
+    margin: 0;
+    display: flex;
+}
+
+
+
+.glyphicon-send{
+    color: white;
+}
+
+button{
+    background-color: red;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    padding: 10px 8px;
+    margin-left: 0;
+    width: 12%;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+textarea{
+    background-color: rgb(230, 226, 226);
+    border-radius: 15px 0 0 15px;
+    border: none;
+    padding: 12px 10px;
+    margin-right: 0;
+    width: 95%;
+    resize: none;
+}
+
+.input-btn-div{
+    display: flex;
+    justify-content: center;
+}
+
+.img-p-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-img{
+    width: 40%;
+}
+
+main{
+    min-height: 86.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section{
+    max-width: 420px;
+    margin: 20px auto;
+    background-color: #f6f6f6;
+    padding: 20px;
+    border-radius: 15px;
+    height: 335px;
+}
+
+.speech-bubble-div {
+    padding: 5px;
+    max-width: 55%;
+    min-height: 124px;
+    border-radius: 15px;
+    position: relative;
+    margin: 0;
+    border: 3px solid #777;
+    background-color: white;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    
+}
+
+.speech-bubble-div:before {
+    content: "";
+    position: absolute;
+    border-left: 9px solid #777;
+    border-right: 9px solid transparent;
+    border-top: 9px solid #777;
+    border-bottom: 9px solid transparent;
+    left: 205px;
+    top: 64px;
+}
+
+.speech-bubble-div:after {
+    content: "";
+    position: absolute;
+    border-left: 7px solid white;
+    border-right: 7px solid transparent;
+    border-top: 7px solid white;
+    border-bottom: 7px solid transparent;
+    left: 203px;
+    top: 67px;
+}
+
+.second-section{
+    display: none;
+   
+}
+
+/* footer{
+    position: absolute;
+    top: calc(100vh - 30px);
+    width: 100%; */
+/* } */
+
+.animation-img{
+    width: 60px;
+}
