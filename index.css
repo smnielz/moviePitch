@@ -57,16 +57,19 @@ textarea{
     margin-right: 0;
     width: 95%;
     resize: none;
+    overflow: hidden;
 }
 
 .input-btn-div{
     display: flex;
     justify-content: center;
+    margin-top: 4rem;
 }
 
 .img-p-div{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .logo-img{
@@ -81,12 +84,13 @@ main{
 }
 
 section{
-    max-width: 420px;
+    width: 42rem;
+    
     margin: 20px auto;
     background-color: #f6f6f6;
     padding: 20px;
     border-radius: 15px;
-    height: 335px;
+    height: 40rem;
 }
 
 .speech-bubble-div {
@@ -140,4 +144,30 @@ section{
 
 .animation-img{
     width: 60px;
+}
+
+@media(max-width: 500px) {
+    .input-btn-div {
+        padding-top: 0;
+    }
+
+    .speech-bubble-div:before {
+        top: 92px;
+    }
+
+    .speech-bubble-div:after {
+        top: 96px;
+    }
+
+    .speech-bubble-div>p {
+        font-size: 120%;
+    }
+
+    textarea::placeholder {
+        font-size: 120%;
+        opacity: 0.8;
+        
+    }
+    
+    
 }
