@@ -1,6 +1,10 @@
 body{
     background-image: url('https://th.bing.com/th/id/OIP.W0Mc5XM9FVPTt78O_BFBLgHaFP?pid=ImgDet&rs=1');
     font-family: 'Poppins';
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header,
@@ -84,13 +88,13 @@ main{
 }
 
 section{
-    max-width: 420px;
+    width: 420px;
     
     margin: 20px auto;
     background-color: #f6f6f6;
     padding: 20px;
     border-radius: 15px;
-    height: 335px;
+    height: 380px;
 }
 
 .speech-bubble-div {
@@ -144,4 +148,19 @@ section{
 
 .animation-img{
     width: 60px;
+}
+
+@media(max-width:500px){
+    section{
+        width: 350px;
+    }
+    .speech-bubble-div:before {
+        left: 168px;
+        top: 64px;
+    }
+    
+    .speech-bubble-div:after {
+        left: 164px;
+        top: 67px;
+    }
 }
